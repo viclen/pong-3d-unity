@@ -13,6 +13,9 @@ public class Main : MonoBehaviour
     public GameObject player1;
     public GameObject player2;
 
+    public AudioSource plin;
+    public AudioSource foi;
+
     void Start()
     {
         StartCoroutine(JogarCoroutine());
@@ -42,12 +45,17 @@ public class Main : MonoBehaviour
 
     IEnumerator JogarCoroutine()
     {
+        yield return new WaitForSeconds(1);
+        plin.Play();
         contador.text = "3";
         yield return new WaitForSeconds(1);
+        plin.Play();
         contador.text = "2";
         yield return new WaitForSeconds(1);
+        plin.Play();
         contador.text = "1";
         yield return new WaitForSeconds(1);
+        foi.Play();
         contador.text = "";
         bola.GetComponent<Bola>().jogar();
     }

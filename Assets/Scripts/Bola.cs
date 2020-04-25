@@ -7,6 +7,8 @@ public class Bola : MonoBehaviour
     public float velocidade = 10;
     public GameObject MainCamera;
     float velocidadeatual;
+    public AudioSource piu;
+    public AudioSource gol;
 
     void OnCollisionEnter2D(Collision2D col)
     {
@@ -20,12 +22,27 @@ public class Bola : MonoBehaviour
             // gol player 1
             MainCamera.GetComponent<Main>().SomarPonto(1);
             MainCamera.GetComponent<Main>().Reiniciar();
+            if (!gol.isPlaying)
+            {
+                gol.Play();
+            }
         }
         else if (col.gameObject.name == "ParedeEsquerda")
         {
             // gol player 2
             MainCamera.GetComponent<Main>().SomarPonto(2);
             MainCamera.GetComponent<Main>().Reiniciar();
+            if (!gol.isPlaying)
+            {
+                gol.Play();
+            }
+        }
+        else
+        {
+            if (!piu.isPlaying)
+            {
+                piu.Play();
+            }
         }
 
     }

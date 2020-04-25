@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{59972000-A102-93F3-E252-4AFE00D882C8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Bola.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Main.cs">
     <Files>
       <File FileName="Assets/Scripts/Movimento.cs" Line="7" Column="28" />
-      <File FileName="Assets/Scripts/Bola.cs" Line="23" Column="10" />
-      <File FileName="Assets/Scripts/Main.cs" Line="18" Column="42" />
+      <File FileName="Assets/Scripts/Bola.cs" Line="9" Column="27" />
+      <File FileName="Assets/Scripts/Main.cs" Line="58" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +11,7 @@
           <Node name="Pong" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Bola.cs" selected="True" />
+                <Node name="Main.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -21,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="84cd1fa0-bb1a-4c54-865f-b08095f40949" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2f1675d3-4302-47c3-8946-4211ad7b2de6" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
